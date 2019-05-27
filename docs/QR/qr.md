@@ -23,10 +23,11 @@ QR contents should allow the same formats as the Deep Links (above), and:
 - `rXXXXXXXX{address}.*dt={tag}`
 - `John Doe <rXXXXXXXX{address}(:tag)*>` (e-mail client alike format)
 - URL params parsed with:
-  - dt (tag)
-  - address / to
-  - currency (issuer + currency)
-  - amount
+  - `dt` / `tag`
+  - `address` / `account` / `to`
+  - `currency` (issuer + currency, `issuer:currency` / `currency:issuer`), check XRPL for existing IOU.
+  - `amount`
+  - `inv` / `invoice` / `invoiceid`
 - HEX string (`[A-F0-9]{32,}`), and test for:
   - Signed TX to submit (Decoded = JSON + signature)
   - Signed TX to submit or add signature (Decoded = JSON + signature + existing multisigner(s))
