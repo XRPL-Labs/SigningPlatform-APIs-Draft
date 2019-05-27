@@ -1,10 +1,17 @@
 # App URI Scheme (Deep links)
 
-All QR's: deep linked to real HTTPS locations, so if the app is not installed, a fallback to a "get the app" page can be displayed.
+The URI Scheme will be used for QR code contents & for redirects. Deep linked locations will point to real (existing) HTTPS locations, so if the app is not installed, a fallback to a "get the app" page can be displayed.
 
-- `https://xrpl-labs.com/xrpl:signed-transaction:<SIGNEDBLOB>`  
-- `https://xrpl-labs.com/pair/<USERUUID>.<DEVICEUUID>`
-- `https://xrpl-labs.com/sign/<PAYLOADUUID>`
+- `https://xign.app/detect/*<Another URI / ... to be parsed>`
+- `https://xign.app/tx/*<(xrpl:signed-transaction:)SIGNEDBLOB>`
+- `https://xign.app/pair/*<USERUUID>.<DEVICEUUID>`
+- `https://xign.app/sign/*<PAYLOADUUID>`
+
+Possibly:
+
+- `https://ripple.com//send*`
+- `xrpl://*`
+- `ilp://*`
 
 # Tech. Notes
 
