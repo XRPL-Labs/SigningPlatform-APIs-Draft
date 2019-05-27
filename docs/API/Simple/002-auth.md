@@ -1,3 +1,0 @@
-# `AUTH` Simple API
-
-Todo...
