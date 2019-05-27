@@ -21,6 +21,7 @@ QR contents should allow the same formats as the Deep Links (above), and:
 - `rXXXXXXXX{address}:{tag}`
 - `rXXXXXXXX{address}={tag}`
 - `rXXXXXXXX{address}.*dt={tag}`
+- `John Doe <rXXXXXXXX{address}(:tag)*>` (e-mail client alike format)
 - URL params parsed with:
   - dt (tag)
   - address / to
