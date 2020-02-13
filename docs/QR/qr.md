@@ -35,6 +35,8 @@ QR contents should allow the same formats as the Deep Links (above), and:
   - TX hash (view TX)
   - Public key (66 chars that derive into a valid activated account)
   - Private key (64 chars, or 66 starting with `00` or `ED`)
+  
+For formats and detection, see https://github.com/XRPL-Labs/xumm-string-decode/   
 
 # Tech. Notes
 
